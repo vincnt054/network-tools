@@ -1,0 +1,13 @@
+* Ports
+
+16-bit unsigned integers
+Uniquely identify data transmission between nodes for the purpose of multiplexing outgoing application
+and demultiplying incoming data back to application
+
+TCP and UDP allow to multiplex data transmissions by using ports
+
+Socket address - (IP address, port number)
+
+Ports 0 to 1023 - well known ports
+Ports 1024 to 49151 - semi-reserved for less common services
+Ports 49152 to 65535 - ephemeral ports

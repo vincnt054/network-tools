@@ -1,0 +1,14 @@
+* NAT
+
+Requires a device (firewall, load balancer, or router) that can keep track of incoming and
+outgoing traffic and properly route incoming traffic to correct node
+
+1. NAT device opens its own connection to destination host using public IP, preserving
+the client's socket address port
+- If client address port is being used, choose a random port for its socket address
+2. NAT device sends the request to the destination host and receives the response on its
+   public IP
+   - Translates socket address to the client socket address that established the connection
+
+Host outside NAT device's private network cannot establish incoming connections
+- Only clients in the private network may establish connection through NAT device

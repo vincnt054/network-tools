@@ -1,0 +1,8 @@
+* Border Gateway Protocol
+
+Relies on the trust of ISPs
+- If an ISP says that it will manage a specific network and all traffic destined for that network
+  should be sent to it, the other ISPs trust this claim and send traffic accordingly
+
+Mitigation of DDOS attack use BGP to reroute all traffics to a target AS network, filters malicious
+traffic, and route the santised traffic to the victim

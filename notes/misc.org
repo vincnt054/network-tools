@@ -1,0 +1,7 @@
+* Misc
+
+Use bits per seconds for network transmission rates
+Use bytes per seconds for amount of data transferred
+
+Any modems using analog
+- Does not requre the use of link-layer protocols such SLIP or PPP
